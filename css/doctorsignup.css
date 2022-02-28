@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+body{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,rgb(216, 19, 19),rgb(187, 0, 194),rgb(69, 1, 255));
+} 
+form{
+  height:580px;
+  width:350px;
+  background: rgba(255, 255, 255, 0.06);
+  display: flex;
+  box-shadow: 0px 8px 10px 0px black;
+  flex-direction: column;
+  border-radius: 30px;
+}
+lable{
+margin: 0px 0px 7px 50px;
+color: white;
+opacity: 0.8;
+}
+input{
+  background: transparent;
+  outline: none;
+  border: none;
+  color:white;
+  opacity:0.9;
+  border-bottom: 1px solid white;
+  width: 75%;
+  margin: 1px auto;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+button{
+  width:30%;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.2); 
+  border-radius: 50px;
+  border: none;
+  outline :none;
+  margin: 10px 0px 10px 100px;
+  opacity: 0.8;
+}
+.s{
+ margin-left: 50px;  
+ opacity: 0.8;
+} 
+.l{
+  margin: 5px 0px 0px 130px;
+  opacity: 0.8;
+}
+#u{
+margin-left: 70px;
+
+}
+#ud{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#d{
+  margin-left: -15px;
+  background: linear-gradient(to right,violet,yellow);
+}
+#ud{
+  display: flex;
+}
+#pdf{
+  border-radius: 10px;
+}
+.u{
+  margin-left: 100px;
+}
